@@ -61,12 +61,12 @@ nav a {
 .parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
-  padding-right: 50px;
-  padding-left: 50px;
+  gap: 10px;
+  padding-right: 36px;
+  padding-left: 49px;
   padding-top: 20px;
   padding-bottom: 20px;
-
+  margin: auto 0;
 }
 
 .div1 {
@@ -88,7 +88,7 @@ nav a {
   font-style: bold;
 }
 
-.text{
+.text {
   padding: 5px 5px;
 }
 
@@ -129,8 +129,31 @@ img {
   height: 600px;
 }
 
-.abt{
-  margin: auto 0;
+.abt {
+  text-align: center;
+  padding-top: 280px;
+  color: rgb(73, 15, 15);
+}
+
+.abt button {
+  color: white;
+  background-color: rgb(73, 15, 15);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.heading-r {
+  text-align: center;
+}
+
+.top-1 {
+  display: flex;
+}
+
+.pro-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 @media (max-width: 760px) {
@@ -147,5 +170,7 @@ img {
 @media (max-width: 480px) {
   .parent {
     grid-template-columns: 1fr;
+    padding-left: 36px;
+    padding-right: 42px;
   }
 }
