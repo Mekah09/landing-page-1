@@ -125,8 +125,9 @@ img {
 }
 
 .about {
-  background: url("/images/bg.jpeg");
+  background: url("/images/bg-3.jpg");
   height: 600px;
+  object-fit: cover;
 }
 
 .abt {
@@ -146,7 +147,9 @@ img {
   text-align: center;
 }
 .cards{
-  width: 500px;
+  /* width: 500px; */
+  margin: 50px;
+  box-shadow: rgba(255, 255, 255, 0.8);
 }
 .top-1 {
   display: flex;
